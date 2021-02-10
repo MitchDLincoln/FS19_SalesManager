@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="53">
+    <author>Mitch D. Lincoln</author>
+    <version>1.0</version>
+    <title>
+        <en>Sale Manager</en>
+        <it>Responsabile Vendita</it>
+    </title>
+    <description>
+        <en><![CDATA[Wait and Witness]]></en>
+    </description>
+    <iconFilename>img/icon.dds</iconFilename>
+
+    <extraSourceFile>
+        <sourceFile filename="salesManager.lua" />
+    </extraSourceFile>
+
+    <!-- <multiplayer supported="true"/> -->
+
+
+    <!-- TODO: Traduzioni (Eventualmente)
+    <l10n filenamePrefix="translations/translation" />
+ -->
+
+    <!--     Potrebbe tornare utile.
+    <extraSourceFiles>
+        <sourceFile filename="lib/modhelper.lua" />
+        <sourceFile filename="lib/MathHelper.lua" />
+        <sourceFile filename="stockman.lua" />
+        <sourceFile filename="gui/stockman_gui.lua"/>
+    </extraSourceFiles> -->
+
+    <!-- TODO: Tasto di attivazione
+    <inputBinding>
+        <actionBinding action="Stockman_ShowOverview">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_F9"/>
+        </actionBinding>
+    </inputBinding> -->
+
+    <!-- TODO: Da Verificare
+    <actions>
+        <action name="Stockman_ShowOverview" axisType="HALF" />
+    </actions> -->
+
+</modDesc>
